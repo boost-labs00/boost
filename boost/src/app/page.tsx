@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-md mx-auto space-y-6">
         <Card>
           <CardHeader>
-            <CardTitle>Boost 프로젝트</CardTitle>
+            <CardTitle>Boost 프로젝트22</CardTitle>
             <CardDescription>
               Next.js와 shadcn/ui로 구축한 개발 환경
             </CardDescription>
