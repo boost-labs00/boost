@@ -18,6 +18,7 @@ import {
   IconSettings,
   IconUsers,
 } from "@tabler/icons-react"
+import Image from 'next/image'
 
 import { NavDocuments } from "@/components/nav-documents"
 import { NavMain } from "@/components/nav-main"
@@ -35,7 +36,7 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
+    name: "boostuser",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
@@ -161,8 +162,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
               <a href="#">
-                <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <Image src="/logo_boost.png" alt="Boost Logo" width="100" height="100"></Image>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
