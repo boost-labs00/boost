@@ -1,0 +1,26 @@
+{
+  "name": "boost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo 'Development server starting...'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boost-labs00/boost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boost-labs00/boost/issues"
+  },
+  "homepage": "https://github.com/boost-labs00/boost#readme",
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
